@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Raleway";
+    font-family: 'Raleway';
     src: url(font/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
-body {
-    font-family: "Raleway", serif;
+* {
+    font-family: 'Raleway', serif;
 }
 
 .box {
@@ -17,9 +17,16 @@ body {
 
 #logo {
     max-width: 90px;
+    border: 3px solid red;
 }
 
 #nav {
     display: flex;
     justify-content: flex-end;
+    max-width: 20%;
+    border: 3px solid black;
+}
+
+a {
+    text-decoration: none;
 }
