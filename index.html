@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -12,20 +13,22 @@
         <title>Booki</title>
     </head>     
     <body>
-        <div class="box">
-            <!-- Header -->
-            <header>  
-                <nav>
-                    <img src="images/logo/Booki.png"  alt="Logo"> 
-                    <ul id="nav">    
-                        <li>                    
-                            <a href="#hebergements">Hébergements</a>
-                            <a href="#activités">Activités</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <!-- Search Bar -->
+        <!-- Header -->
+        <header>
+            <img src="images/logo/Booki.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li class="menu">
+                        <a href="#hebergements">Hébergements</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#activités">Activités</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Search Bar -->
+        <section id="research">
             <div id="title">
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p id="subtitle">En plein centre ville ou en pleine nature</p>
@@ -34,8 +37,8 @@
                 <span class="input-left-icon-container">
                     <i class="fa-solid fa-location-dot fa-lg"></i>
                 </span>
-                <p><input type="text" name="search" id="bar"></p>
-                <input type="submit" value="Rechercher" id="srchbutton">
+            <p><input type="text" name="search" id="search-bar"></p>
+            <input type="submit" value="Rechercher" id="search-button">
             </form>
             <!-- Filter -->
             <div id="filter">
@@ -65,6 +68,13 @@
                     <input type="submit" value="Animaux autorisés">
                 </span>
             </div>
-        </div>
+            <div id="research-title">
+                <span class="input-icon-info-container">
+                    <i class="fa-solid fa-info fa-xs"></i>
+                </span>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
     </body>
-</html>
+    
+    </html>
