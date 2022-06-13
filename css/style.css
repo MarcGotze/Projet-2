@@ -94,7 +94,7 @@ form i {
     border-radius: 15px 0px 0px 15px;
 }
 
-/* FILTERS */
+/* FILTER */
 
 #filter {
     display: flex;
@@ -143,21 +143,8 @@ form i {
     margin-right: 15px;
 }
 
-.input-icon-info-container {
-    border-color: grey;
-    max-height: 15px;
-    max-width: 15px;
-    border-radius: 50% 50% 50% 50%;
-}
-
 /* RESPONSIVE */
 
 @media screen and (max-width: 768px) {
-    nav  {
-        flex-direction: column;
-    }
 
-    #search-button {
-        display: none;
-    }
 }
