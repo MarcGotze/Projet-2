@@ -23,6 +23,12 @@ nav img {
 nav ul {
     display: flex;
     list-style: none;
+
+}
+
+li a:hover {
+    border-top: solid;
+    border-color: #0065FC;
 }
 
 li a {
@@ -115,4 +121,22 @@ form i {
     max-height: 50px;
     max-width: 50px;
     border-radius: 50% 50% 50% 50%;
+}
+
+.button-filter input {
+    background-color: white;
+    border-color: #F2F2F2;
+    border-style: solid;
+    font-size: 16px;
+    font-weight: 650;
+    height: 50px;
+    width: 157px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    nav  {
+        flex-direction: column;
+    }
 }
