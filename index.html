@@ -4,15 +4,16 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap'" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
         <script src="https://kit.fontawesome.com/d7bb70cdb2.js" crossorigin="anonymous"></script>
         <title>Booki</title>
     </head>     
     <body>
+
         <!-- Header -->
         <header>
             <img src="images/logo/Booki.png" alt="Logo">
@@ -27,6 +28,7 @@
                 </ul>
             </nav>
         </header>
+
         <!-- Search Bar -->
         <section id="research">
             <div id="title">
@@ -40,34 +42,47 @@
             <p><input type="text" name="search" id="search-bar"></p>
             <input type="submit" value="Rechercher" id="search-button">
             </form>
+
             <!-- Filter -->
             <div id="filter">
                 <p>Filtres</p>
-                <span class="input-left-icon-filter-container">
-                    <i class="fa-solid fa-money-bill-wave fa-lg"></i>
-                </span>
-                <span class="button-filter">
-                    <input type="submit" value="Économique">
-                </span>
-                <span class="input-left-icon-filter-container">
-                    <i class="fa-solid fa-child-reaching fa-lg"></i>
-                </span>
-                <span class="button-filter">
-                    <input type="submit" value="Familial">
-                </span>
-                <span class="input-left-icon-filter-container">
-                    <i class="fa-solid fa-heart fa-lg"></i>
-                </span>
-                <span class="button-filter">
-                    <input type="submit" value="Romantique">
-                </span>
-                <span class="input-left-icon-filter-container">
-                    <i class="fa-solid fa-dog fa-lg"></i>
-                </span>
-                <span class="button-filter">
-                    <input type="submit" value="Animaux autorisés">
-                </span>
+                <div class="element-filter">
+                    <span class="input-left-icon-filter-container">
+                        <i class="fa-solid fa-money-bill-wave fa-lg"></i>
+                    </span>
+                    <span class="button-filter">
+                        <input type="submit" value="Économique">
+                    </span>
+                </div>
+
+                <div class="element-filter">
+                    <span class="input-left-icon-filter-container">
+                        <i class="fa-solid fa-child-reaching fa-lg"></i>
+                    </span>
+                    <span class="button-filter">
+                        <input type="submit" value="Familial">
+                    </span>
+                </div>
+
+                <div class="element-filter">
+                    <span class="input-left-icon-filter-container">
+                        <i class="fa-solid fa-heart fa-lg"></i>
+                    </span>
+                    <span class="button-filter">
+                        <input type="submit" value="Romantique">
+                    </span>
+                </div>
+
+                <div class="element-filter">
+                    <span class="input-left-icon-filter-container">
+                        <i class="fa-solid fa-dog fa-lg"></i>
+                    </span>
+                    <span class="button-filter">
+                        <input type="submit" value="Animaux autorisés">
+                    </span>
+                </div>
             </div>
+
             <div id="research-title">
                 <span class="input-icon-info-container">
                     <i class="fa-solid fa-info fa-xs"></i>
