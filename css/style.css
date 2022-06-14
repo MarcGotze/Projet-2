@@ -37,37 +37,46 @@ nav a:hover {
 
 /* SEARCH BAR */ 
 
-#research {
+.research {
     margin-left: 50px;
 }
 
 h2 {
-    margin: 33px 0px -7px 0px;
+    margin: 33px 0px 0px 0px;
     font-size: 22px;
 }
 
-#subtitle {
+.subtitle {
     margin-bottom: 0;
+    margin-top: 7px;
 }
 
-#search {
+.search {
     display: flex;
     align-items: center;
 }
 
-#search-bar {
+.search-bar {
     height: 50px;
 }
 
-#search-button {
+.search-button {
     color: whitesmoke;
     background-color: #0065FC;
     font-size: 16px;
     font-weight: 650;
     height: 50px;
     width: 125px;
+    padding-bottom: 50px;
     border-radius: 0px 15px 15px 0px;
     border-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.search-button i {
+    visibility: hidden;
+    position: relative;
 }
 
 form input[type=text] {
@@ -98,28 +107,50 @@ form i {
 
 /* FILTER */
 
-.element-filter {
+.filter-box {
     display: flex;
+    flex-direction: row;
+    height: 50px;
 }
 
-#filter {
+.filter {
     display: flex;
     align-items: center;
     margin-top: 10px;
     margin-left: 5px;
 }
 
-#filter p {
+.filter * {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.filter-title {
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
 }
 
-#filter i {
+.filter i {
     color: #0065FC;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 25px;
+    margin-top: 15px;
+}
+
+.element-filter {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 2px solid #d9d9d9;
+    border-left: 0;
+    border-radius: 25px 25px 25px 25px;
+    height: 50px;
+    width: auto;
 }
 
 .input-left-icon-filter-container {
@@ -129,35 +160,120 @@ form i {
     border-radius: 50% 50% 50% 50%;
 }
 
-.button-filter input {
-    background-color: white;
-    border-color: #F2F2F2;
-    border-style: solid;
-    font-size: 16px;
-    font-weight: 650;
-    height: 50px;
-    width: 157px;
-    margin-left: 25px;
-    border-radius: 0px 25px 25px 0px;
-}
-
-#research-title {
+.search-result {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
-#research-title i {
+.search-result i {
     color: #0065FC;
-    margin-right: 15px;
+}
+
+.info-icon {
+    border: 1px solid #d9d9d9;
+    height: 23px;
+    width: 23px;
+    border-radius: 50px 50px 50px 50px;
+    padding-top: 1px;
+    margin-right: 10px;
+    text-align: center;
 }
 
 /* RESPONSIVE */
 
 @media screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+    }   
+
+    /* HEADER_MOBILE */
+
     header {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
         flex-direction: row;
+        margin: 25px 0px 0px 0px;
+    }
+
+    header img {
+        margin: auto;
+        padding-left: 25px;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* NAV_MOBILE */
+    
+    nav {
+        margin-top: 35px;
+    }
+
+    nav a {
+        padding: 0px;   
+        border-bottom: solid 3px #d9d9d9; 
+    }
+
+    nav a:hover {
+        border-color: #0065FC;
+        border-top: none;
+    }
+
+    /* SEARCH_MOBILE */
+
+    .search {
+        margin-top: 35px;
+    }
+
+    .search-button {
+        width: 50px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .search-button p {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .search-button i {
+        visibility: visible;
+        margin: 0;
+    }
+
+    .research {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .search-bar {
+        width: 260px;
+    }
+
+    /* FILTER_MOBILE */
+
+    .filter-box {
+        display: flex;
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .filter-title {
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
