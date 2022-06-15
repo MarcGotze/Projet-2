@@ -15,7 +15,7 @@ header {
 
 header img {
     height: 45px;
-    margin: 0px 0px 0px 15px;
+    margin-left: 15px;
 }
 
 /* NAV */
@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 h2 {
-    margin: 33px 0px 0px 0px;
+    margin-top: 33px;
     font-size: 22px;
 }
 
@@ -75,8 +75,7 @@ h2 {
 }
 
 .search-button i {
-    visibility: hidden;
-    position: relative;
+    display: none;
 }
 
 form input[type=text] {
@@ -113,13 +112,6 @@ form i {
     height: 50px;
 }
 
-.filter {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-
 .filter * {
     font-size: 18px;
     font-weight: bold;
@@ -127,6 +119,13 @@ form i {
     text-decoration: none;
     color: black;
     text-align: center;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 .filter-title {
@@ -180,6 +179,32 @@ form i {
     text-align: center;
 }
 
+/* LODGING */
+
+.lodging-blocks {
+    display: flex;
+}
+
+.lodging {
+    margin: 20px 0px 0px 40px;
+    background-color: #F2F2F2;
+    height: 550px;
+    width: 64%;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.lodging-box {
+    margin-left: 40px;
+}
+
+.populars {
+    margin: 20px 0px 0px 40px;
+    background-color: #F2F2F2;
+    height: 550px;
+    width: 30%;
+    border-radius: 25px 25px 25px 25px;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 768px) {
@@ -193,7 +218,6 @@ form i {
     header {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
         flex-direction: row;
         margin: 25px 0px 0px 0px;
     }
@@ -211,20 +235,43 @@ form i {
     /* NAV_MOBILE */
     
     nav {
+        display: flex;
+        justify-content: center;
         margin-top: 35px;
-    }
-
-    nav a {
-        padding: 0px;   
+        padding-bottom: 10px;
+        width: 100%;
         border-bottom: solid 3px #d9d9d9; 
     }
 
+    ul {
+        padding-inline-start: 0; 
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    nav a {
+        padding: 0;
+        margin-right: 62px;
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+
     nav a:hover {
-        border-color: #0065FC;
+        border-bottom: solid 3px #0065FC;
         border-top: none;
     }
 
     /* SEARCH_MOBILE */
+
+    .title {
+        padding-right: 50px;
+    }
+
+    .title h2 {
+        margin-bottom: 10px;
+    }
 
     .search {
         margin-top: 35px;
@@ -236,13 +283,11 @@ form i {
     }
 
     .search-button p {
-        visibility: hidden;
-        position: relative;
+        display: none;
     }
 
     .search-button i {
-        visibility: visible;
-        margin: 0;
+        display: contents;
     }
 
     .research {
@@ -255,25 +300,53 @@ form i {
 
     .search-bar {
         width: 260px;
+        border-right: 0;
     }
 
     /* FILTER_MOBILE */
 
     .filter-box {
         display: flex;
+        flex-direction: column;
         height: auto;
-        width: auto;
-        margin-top: 20px;
+        width: 100%;
     }
 
     .filter-title {
         display: flex;
         margin-top: 25px;
+        width: 100%;
     }
 
     .filter {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 200px;
+    }
+
+    .element-filter {
+        margin-bottom: 15px;
+    }
+
+    .element-filter:nth-child(1) {
+        order: 1;
+    }
+    
+    .element-filter:nth-child(2) {
+        order: 4;
+    }
+
+    .element-filter:nth-child(3) {
+        order: 2;
+    }
+
+    .element-filter:nth-child(4) {
+        order: 3;
+    }
+
+    .lodging-blocks {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
 }
