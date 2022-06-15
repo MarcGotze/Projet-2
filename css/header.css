@@ -1,0 +1,33 @@
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+header img {
+    height: 45px;
+    margin-left: 60px;
+}
+
+/* NAV */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 70px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding-top: 62px;
+    padding-left: 70px;
+}
+
+nav a:hover {  
+    border-top: solid 3px #0065FC;
+}

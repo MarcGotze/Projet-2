@@ -1,0 +1,99 @@
+.cards-blocks {
+    display: flex;
+}
+
+.hebergement {
+    margin: 20px 0px 0px 40px;
+    background-color: #F2F2F2;
+    height: 625x;
+    width: 880px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.hebergement h2 {
+    margin-left: 35px;
+}
+
+.cards-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.cards-element {
+    background-color: white;
+    height: 199px;
+    width: 246px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.cards-img {
+    object-fit: cover;
+    height: 65%;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    padding: 5px;
+}
+
+.cards-title {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.cards-subtitle {
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+/* POPULARS */
+
+.populars {
+    margin: 20px 0px 0px 40px;
+    background-color: #F2F2F2;
+    height: 625px;
+    width: 420px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.populars h2 {
+    margin-left: 35px;
+}
+
+.populars-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.p-cards-element {
+    background-color: white;
+    height: 144px;
+    width: 343px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 1px 1px 5px grey;
+    
+}
+
+.p-cards-img {
+    object-fit: cover;
+    height: 100%;
+    width: 40%;
+    border-radius: 25px 0px 0px 25px;
+    padding: 5px;
+}
+
+.p-cards-title {
+    margin: 0;
+    padding-left: 15px;
+    text-align: right;
+}
+
+.p-cards-subtitle {
+    margin-top: 5px;
+    padding-left: 15px;
+     text-align: right;
+}
