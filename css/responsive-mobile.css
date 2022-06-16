@@ -1,10 +1,4 @@
-/* RESPONSIVE */
-
 @media screen and (max-width: 768px) {
-
-    * {
-        margin: 0;
-    }   
 
     /* HEADER_MOBILE */
 
@@ -30,14 +24,11 @@
     nav {
         display: flex;
         justify-content: center;
-        margin-top: 35px;
+        margin-top: 20px;
+        padding-left: 30px;
         padding-bottom: 10px;
         width: 100%;
         border-bottom: solid 3px #d9d9d9; 
-    }
-
-    ul {
-        padding-inline-start: 0; 
     }
 
     nav li {
@@ -59,7 +50,8 @@
     /* SEARCH_MOBILE */
 
     .title {
-        padding-right: 50px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .title h2 {
@@ -67,12 +59,12 @@
     }
 
     .search {
-        margin-top: 35px;
+        margin-top: 25px;
     }
 
     .search-button {
         width: 50px;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 13px 13px 13px 13px;
     }
 
     .search-button p {
@@ -92,7 +84,7 @@
     }
 
     .search-bar {
-        width: 260px;
+        width: 230px;
         border-right: 0;
     }
 
@@ -107,7 +99,7 @@
 
     .filter-title {
         display: flex;
-        margin-top: 25px;
+        margin-top: 5px;
         width: 100%;
     }
 
@@ -141,5 +133,11 @@
     .lodging-blocks {
         display: flex;
         flex-direction: column;
+    }
+
+    /* POPULARS */
+    
+    .cards-blocks {
+        flex-direction: column-reverse;
     }
 }
