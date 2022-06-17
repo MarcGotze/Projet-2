@@ -2,6 +2,14 @@
     display: flex;
 }
 
+.cards-blocks a:link {
+    text-decoration: none;
+}
+
+.cards-blocks a:visited {
+    color: black;
+}
+
 .hebergement {
     margin: 20px 0px 0px 40px;
     background-color: #F2F2F2;

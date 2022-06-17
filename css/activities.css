@@ -2,6 +2,14 @@
     margin: 40px 0 0 40px;
 }
 
+#activities a:link {
+    text-decoration: none;
+}
+
+#activities a:visited {
+    color: black;
+}
+
 .activities-box {
     display: flex;
     justify-content: space-between;
