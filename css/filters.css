@@ -46,6 +46,12 @@
     width: auto;
 }
 
+.element-filter:hover {
+    border-color: #DEEBFF;
+    background-color: #DEEBFF;
+}
+
+
 .input-left-icon-filter-container {
     background-color: #DEEBFF;
     height: 50px;
