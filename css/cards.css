@@ -1,3 +1,4 @@
+/* CARDS STYLE */
 .cards-blocks {
     display: flex;
 }
@@ -10,7 +11,12 @@
     color: black;
 }
 
-.hebergement {
+.cards-blocks a:link {
+    color: black;
+}
+
+/* LODGING */
+.lodging {
     margin: 20px 0px 0px 40px;
     background-color: #F2F2F2;
     height: 625x;
@@ -18,7 +24,7 @@
     border-radius: 25px 25px 25px 25px;
 }
 
-.hebergement h2 {
+.lodging h2 {
     margin-left: 35px;
 }
 
@@ -64,13 +70,13 @@
 
 /* POPULARS */
 
-#populars-title-box {
+.populars-title-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#populars-title-box  i {
+.populars-title-box  i {
     margin: 10px 40px 0px 0px;
 }
 
