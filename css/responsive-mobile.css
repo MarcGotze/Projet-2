@@ -57,8 +57,17 @@
         display: none;
    }
 
+   .search-button a {
+    position: relative;
+   }
+
    .search-button i {
-        display: contents;
+        display: inline-block;
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
    }
    
    .search-button {
@@ -86,39 +95,28 @@
         flex-direction: column;
     }
 
+    .filter * {
+        margin-right: 0;
+    }
+
+    .filter p {
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+
     .filter {
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         margin-left: 15px;
         height: 200px;
         row-gap: 10px;
+        column-gap: 10px;
         align-items: flex-start;
     }
 
     .filter-title {
         margin-left: 25px;
     }
-
-    .element-filter:nth-child(1) {
-        order: 1;
-    }
-
-    .element-filter:nth-child(2) {
-        order: 4;
-    }
-
-    .element-filter:nth-child(3) {
-        order: 2;
-    }
-
-    .element-filter:nth-child(4) {
-        order: 3;
-    }
-
-    .search-result {
-        margin-top: 0;
-    }
-
 
     /*CARDS*/
     .cards-blocks {

@@ -4,6 +4,7 @@
 @import url(cards.css);
 @import url(activities.css);
 @import url(footer.css);
+@import url(responsive-tablet.css);
 @import url(responsive-mobile.css);
 
 * {
