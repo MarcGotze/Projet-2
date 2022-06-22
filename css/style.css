@@ -6,6 +6,7 @@
 @import url(footer.css);
 @import url(responsive-tablet.css);
 @import url(responsive-mobile.css);
+@import url(responsive-activities.css);
 
 * {
     font-family: 'Raleway', sans-serif;
