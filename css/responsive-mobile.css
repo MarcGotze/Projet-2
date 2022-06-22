@@ -1,8 +1,4 @@
 @media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
    /* HEADER */ 
    header {
     flex-direction: column;
