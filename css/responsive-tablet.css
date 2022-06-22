@@ -217,6 +217,7 @@
      #footer-box {
          flex-direction: column;
          height: 500px;
+         width: 100%;
      }
  
      .f-block-1, .f-block-2, .f-block-3 {
@@ -224,7 +225,7 @@
          margin: 0px 0px 0px 20px;
          display: flex;
          flex-direction: column;
-         width: 100%;
+         width: 90%;
      }
  
      .f-block-1 h4, .f-block-2 h4, .f-block-3 h4{
