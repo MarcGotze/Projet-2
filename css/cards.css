@@ -110,7 +110,9 @@
 }
 
 .p-cards-element .stars {
-    margin-top: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .p-cards-img {
@@ -140,10 +142,14 @@
 /* STARS */
 
 .stars {
+    margin-top: 10px;
     margin-left: 15px; 
     color: #0065FC;
+    display: flex;
+    align-items: center;
 }
 
 .grey-stars {
     color: #F2F2F2;
+    display: flex;
 }

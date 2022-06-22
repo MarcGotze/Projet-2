@@ -1,19 +1,19 @@
 @media screen and (max-width: 768px) {
    /* HEADER */ 
    header {
-    flex-direction: column;
-    margin-top: 20px;
+        flex-direction: column;
+        margin-top: 20px;
    }  
 
    header img {
-    height: 45px;
-    margin-left: 40px;
-}
+        height: 45px;
+        margin-left: 40px;
+    }
 
    .menu {
-    list-style: none;
-    display: flex;
-    margin-left: 0px;
+        list-style: none;
+        display: flex;
+        margin-left: 0px;
     }
 
     nav a {
@@ -27,7 +27,7 @@
     }
     
     nav a:active {  
-    border-bottom: solid 3px #0065FC;
+        border-bottom: solid 3px #0065FC;
     }
 
     nav a:hover {
@@ -49,15 +49,15 @@
    }
 
    .search {
-    margin-left: 25px;
+        margin-left: 25px;
    }
 
    .search-button input {
-    display: none;
+        display: none;
     }
 
    .search-button a {
-    position: relative;
+        position: relative;
    }
 
    .search-button i {
