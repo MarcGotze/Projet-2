@@ -1,5 +1,8 @@
 @media screen and (max-width: 768px) {
-   
+    body {
+        overflow-x: hidden;
+    }
+
    /* HEADER */ 
    header {
     flex-direction: column;
@@ -53,9 +56,9 @@
     margin-left: 25px;
    }
 
-   .search-button p {
-        display: none;
-   }
+   .search-button input {
+    display: none;
+    }
 
    .search-button a {
     position: relative;
