@@ -157,13 +157,9 @@
  
      .activities-box {
          flex-direction: column;
-         margin: 0px 0px 0px 0px;
+         margin: 0;
          gap: 20px;
          align-items: center;
-     }
-
-     .activities-box h4 {
-        margin-top: 35px;
      }
  
      .activities-element-l {
