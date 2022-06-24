@@ -1,8 +1,14 @@
 @media screen and (min-width: 992px) and (max-width: 1324px) {
     .activities-box {
-        flex-direction: column;
-        align-items: center;
+        margin: 0;
         gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .act-box-col {
+        width: 100%;
+        align-items: center;
     }
 
     .activities-box h4 {
@@ -11,7 +17,7 @@
  
      .activities-element-l {
          height: 300px;
-         width: 750px;
+         width: 90%;
      }
  
      .a-cards-img-l {
@@ -20,7 +26,7 @@
  
      .activities-element-m {
          height: 300px;
-         width: 750px;
+         width: 90%;
          margin-bottom: 20px;
      }
  
@@ -30,7 +36,7 @@
      
      .activities-element-xs {
          height: 300px;
-         width: 750px;
+         width: 90%;
      }
  
      .a-cards-img-xs {
@@ -39,7 +45,7 @@
  
      .activities-element-ms {
          height: 300px;
-         width: 750px;
+         width: 90%;
          margin-bottom: 20px;
      }
  
@@ -49,7 +55,7 @@
  
      .activities-element-sm {
          height: 300px;
-         width: 750px;
+         width: 90%;
      }
  
      .activities-img-sm {
