@@ -4,6 +4,7 @@
 
 #activities a:link {
     text-decoration: none;
+    color: black;
 }
 
 #activities a:visited {

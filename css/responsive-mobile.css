@@ -10,39 +10,47 @@
         margin-left: 40px;
     }
 
-    .menu {
-        list-style: none;
-        display: flex;
+    nav {
         width: 100%;
-        margin: 20px 0px 0px 0px;
-        padding-bottom: 15px;
-        border-bottom: solid 3px #F2F2F2;
     }
-    
+
     nav a {
-        color: black;
-        text-decoration: none;
-        padding: 20px 0px 15px 0px;
-        
+        padding: 0;
+        border-top: none;
+    }
+
+    nav a:hover {
+        border-top-style: none;
+    }
+
+    .menu {
+        padding-inline-start: 0;
+        width: 100%;
     }
 
     .heb-link {
         width: 50%;
-        padding-right: 120px;
+        border-top: 0;
+        border-bottom: 3px solid #F2F2F2;
+        text-align: center;
+        padding-bottom: 15px;
     }
 
     .act-link {
         width: 50%;
-        padding-left: 40px;
-    }
-    
-    nav a:active {  
-        border-bottom: solid 3px #0065FC;
+        border-bottom: 3px solid #F2F2F2;
+        text-align: center;
+        padding-bottom: 15px;
     }
 
-    nav a:hover {
-        border-top: none;
+    .heb-link:active {
+        border-bottom: 3px solid #0065FC;
     }
+
+    .act-link:active {
+        border-bottom: 3px solid #0065FC;
+    }
+
 
    /* SEARCH BAR */
    .research {
@@ -167,6 +175,16 @@
 
     .populars-title-box i {
         margin-right: 20px;
+    }
+
+    .p-cards-element {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cards-blocks a:link {
+        width: 100%;
     }
 
     /*ACTIVITIES*/
