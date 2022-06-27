@@ -89,6 +89,7 @@
     height: 625px;
     width: 420px;
     border-radius: 25px 25px 25px 25px;
+    margin-right: 60px;
 }
 
 .populars h2 {
@@ -106,15 +107,19 @@
     display: flex;
     background-color: white;
     height: 144px;
-    width: 343px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 1px 1px 5px grey;
     padding-right: 20px;
-    
+}
+
+.cards-blocks a:link {
+    width: 100%;
 }
 
 .p-cards-element .stars {
-    margin-top: 30px;
     display: flex;
     align-items: center;
 }
@@ -146,7 +151,6 @@
 /* STARS */
 
 .stars {
-    margin-top: 10px;
     margin-left: 15px; 
     color: #0065FC;
     display: flex;
