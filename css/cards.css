@@ -150,11 +150,15 @@
 
 /* STARS */
 
-.stars {
+.stars, .stars-heb {
     margin-left: 15px; 
     color: #0065FC;
     display: flex;
     align-items: center;
+}
+
+.stars-heb {
+    margin-top: 10px;
 }
 
 .grey-stars {
