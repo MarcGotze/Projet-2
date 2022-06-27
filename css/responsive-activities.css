@@ -13,52 +13,52 @@
 
     .activities-box h4 {
         margin-top: 35px;
-     }
- 
-     .activities-element-l {
-         height: 300px;
-         width: 90%;
-     }
- 
-     .a-cards-img-l {
-         height: 70%;
-     }    
- 
-     .activities-element-m {
-         height: 300px;
-         width: 90%;
-         margin-bottom: 20px;
-     }
- 
-     .a-cards-img-m {
-         height: 70%;
-     }    
-     
-     .activities-element-xs {
-         height: 300px;
-         width: 90%;
-     }
- 
-     .a-cards-img-xs {
-         height: 70%;
-     }    
- 
-     .activities-element-ms {
-         height: 300px;
-         width: 90%;
-         margin-bottom: 20px;
-     }
- 
-     .a-cards-img-ms {
-         height: 70%;
-     }    
- 
-     .activities-element-sm {
-         height: 300px;
-         width: 90%;
-     }
- 
-     .activities-img-sm {
-         height: 70%;
-     }
+    }
+
+    .activities-element-l {
+        height: 300px;
+        width: 90%;
+    }
+
+    .a-cards-img-l {
+        height: 70%;
+    }
+
+    .activities-element-m {
+        height: 300px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .a-cards-img-m {
+        height: 70%;
+    }
+
+    .activities-element-xs {
+        height: 300px;
+        width: 90%;
+    }
+
+    .a-cards-img-xs {
+        height: 70%;
+    }
+
+    .activities-element-ms {
+        height: 300px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .a-cards-img-ms {
+        height: 70%;
+    }
+
+    .activities-element-sm {
+        height: 300px;
+        width: 90%;
+    }
+
+    .activities-img-sm {
+        height: 70%;
+    }
 }
