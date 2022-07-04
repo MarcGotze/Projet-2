@@ -24,9 +24,7 @@ header img {
 nav a {
     color: black;
     text-decoration: none;
-    padding-top: 62px;
-    padding-right: 28px;
-    padding-left: 40px;
+    padding: 62px 28px 0px 40px;
 }
 
 nav a:hover {  

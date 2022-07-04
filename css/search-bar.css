@@ -10,8 +10,7 @@ h2 {
 }
 
 .subtitle {
-    margin-bottom: 0;
-    margin-top: 7px;
+    margin: 7px 0px 0px 0px;
 }
 
 .search {
@@ -55,9 +54,7 @@ input {
 }
 
 form i {
-   margin-right: 20px;
-   margin-left: 20px;
-   margin-top: 25px;
+   margin: 25px 20px 0px 20px;
 }
 
 .input-left-icon-container {

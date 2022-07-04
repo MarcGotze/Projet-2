@@ -28,28 +28,16 @@
         width: 100%;
     }
 
-    .heb-link {
+    .menu-link {
         width: 50%;
         border-bottom: 3px solid #F2F2F2;
         text-align: center;
         padding-bottom: 15px;
     }
 
-    .act-link {
-        width: 50%;
-        border-bottom: 3px solid #F2F2F2;
-        text-align: center;
-        padding-bottom: 15px;
-    }
-
-    .heb-link:active {
+    .menu-link:active {
         border-bottom: 3px solid #0065FC;
     }
-
-    .act-link:active {
-        border-bottom: 3px solid #0065FC;
-    }
-
 
    /* SEARCH BAR */
    .research {
@@ -62,7 +50,7 @@
    }
 
    .subtitle {
-        margin: 0px 0px 20px 25px
+        margin: 0px 0px 20px 25px;
    }
 
    .search {
